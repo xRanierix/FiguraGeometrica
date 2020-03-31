@@ -13,7 +13,7 @@ public class Quadrado extends Poligono implements Diagonal {
 	}
 
 	@Override
-	public double CalcDiag() {
+	public double calcDiag() {
 
 		return super.getAltura() * Math.sqrt(2);
 	}
@@ -26,7 +26,7 @@ public class Quadrado extends Poligono implements Diagonal {
 
 	@Override
 	public String toString() {
-		return "Quadrado [area()=" + area() + ", CalcDiag()=" + CalcDiag() + ", perimetro()=" + perimetro() + "]";
+		return "Quadrado [area()=" + area() + ", calcDiag()=" + calcDiag() + ", perimetro()=" + perimetro() + "]";
 	}
 
 }

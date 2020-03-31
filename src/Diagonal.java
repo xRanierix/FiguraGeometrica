@@ -1,7 +1,5 @@
 
 public interface Diagonal {
 
-	default double CalcDiag() {
-		return 0;
-	}
+	 public double calcDiag();
 }

@@ -13,7 +13,7 @@ public class Retangulo extends Poligono implements Diagonal {
 	}
 
 	@Override
-	public double CalcDiag() {
+	public double calcDiag() {
 		double calc = Math.pow(super.getAltura(), 2)  +   Math.pow(super.getBase(), 2);  // base e altura ao quadrado sendo somados
 		return Math.sqrt(calc) ; 	// raiz quadrada do resultado
 		}
@@ -26,7 +26,7 @@ public class Retangulo extends Poligono implements Diagonal {
 
 	@Override
 	public String toString() {
-		return "Retangulo [area()=" + area() + ", CalcDiag()=" + CalcDiag() + ", perimetro()=" + perimetro() + "]";
+		return "Retangulo [area()=" + area() + ", calcDiag()=" + calcDiag() + ", perimetro()=" + perimetro() + "]";
 	}
 	
 	
