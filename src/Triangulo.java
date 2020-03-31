@@ -3,7 +3,7 @@ public class Triangulo extends Poligono {
 
 	public Triangulo(double altura, double base) {
 		super(altura, base);
-		// TODO Auto-generated constructor stub
+		// TODO, Auto-generated constructor stub
 	}
 
 	@Override
@@ -11,7 +11,7 @@ public class Triangulo extends Poligono {
 
 		return super.getAltura() * super.getBase() / 2;
 	}
-
+	// area do triangulo
 	@Override
 	public double perimetro() {
 		double cateto = super.getBase() / 2;
@@ -20,12 +20,13 @@ public class Triangulo extends Poligono {
 		
 		return super.getBase()*fimSera + super.getBase()*fimSera + fimSera * fimSera;
 	}
+	// perimetro do triangulo
 
 	@Override
 	public String toString() {
 		return "Triangulo [area()=" + area() + ", perimetro()=" + perimetro() + "]";
 	}
-
+	// tostring da area e perimetro do triangulo
 	
 	
 }
