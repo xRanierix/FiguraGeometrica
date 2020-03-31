@@ -2,3 +2,7 @@
 bin
 .classpath
 .project
+*.jar
+*.MF
+*.properties
+target/classes/META-INF/maven/FiguraGeometrica/FiguraGeometrica/pom.xml
