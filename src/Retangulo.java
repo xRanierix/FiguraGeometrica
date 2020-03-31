@@ -11,6 +11,7 @@ public class Retangulo extends Poligono implements Diagonal {
 
 		return super.getAltura() * super.getBase();
 	}
+	// area do retangulo
 
 	@Override
 	public double calcDiag() {
@@ -23,11 +24,13 @@ public class Retangulo extends Poligono implements Diagonal {
 		
 		return 2*super.getBase() + 2*super.getAltura();
 	}
+	// perimetro do retangulo
 
 	@Override
 	public String toString() {
 		return "Retangulo [area()=" + area() + ", calcDiag()=" + calcDiag() + ", perimetro()=" + perimetro() + "]";
 	}
+	//to string da area e do perimetro do retangulo
 	
 	
 }
