@@ -1,4 +1,4 @@
-
+//classe pai
 public abstract class Poligono extends Figura {
 
 	private double altura;
@@ -7,7 +7,7 @@ public abstract class Poligono extends Figura {
 	
 	public Poligono(double altura, double base) {
 		
-		this.altura = altura; //é instanciado aqui
+		this.altura = altura; //Ã© instanciado aqui
 		this.base = base;
 	}
 
